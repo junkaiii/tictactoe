@@ -1,14 +1,15 @@
 #outer {
-  height: 800px;
-  width: 800px;
+  height: 50vw;
+  width: 50vw;
   background-color: black;
   position: relative;
+  margin: 0 auto;
 
 }
 
 #box1 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width: 15vw;
   background-color: white;
   position: absolute;
   top: 0px;
@@ -17,75 +18,75 @@
 }
 
 #box2 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width: 15vw;
   background-color: white;
   position: absolute;
   top: 0px;
-  left: 300px;
+  left: 17.5vw;
 }
 
 #box3 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width:15vw;
   background-color: white;
   position: absolute;
   top: 0px;
-  left: 600px;
+  left: 35vw;
 }
 
 #box4 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width: 15vw;
   background-color: white;
   position: absolute;
-  top: 300px;
+  top: 17.5vw;
   left: 0px;
 }
 
 #box5 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width: 15vw;
   background-color: white;
   position: absolute;
-  top: 300px;
-  left: 300px;
+  top: 17.5vw;
+  left: 17.5vw;
 }
 
 #box6 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width:15vw;
   background-color: white;
   position: absolute;
-  top: 300px;
-  left: 600px;
+  top: 17.5vw;
+  left: 35vw;
 }
 
 #box7 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width: 15vw;
   background-color: white;
   position: absolute;
-  top: 600px;
+  top: 35vw;
   left: 0px;
 }
 
 #box8 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width:15vw;
   background-color: white;
   position: absolute;
-  top: 600px;
-  left: 300px;
+  top: 35vw;
+  left: 17.5vw;
 }
 
 #box9 {
-  height: 200px;
-  width:200px;
+  height: 15vw;
+  width: 15vw;
   background-color: white;
   position: absolute;
-  top: 600px;
-  left: 600px;
+  top: 35vw;
+  left: 35vw;
 }
 
 img {
@@ -94,5 +95,22 @@ img {
 }
 
 p {
-  font-size: 50px;
+  font-size: 7em;
+  text-align: center;
+  line-height: 80%;
+}
+
+#turn {
+  text-align: center;
+  font-size: 3em;
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+  p {
+    font-size: 4em;
+    text-align: center;
+    line-height: 5%;
+  }
 }

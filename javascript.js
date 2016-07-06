@@ -98,7 +98,7 @@ function initialise() {
     } else if ((cBox3.innerHTML === cBox5.innerHTML) && (cBox5.innerHTML === cBox7.innerHTML) && (cBox7.innerHTML !== "")) {
       alert(currentPlayer + ' Wins!');
       location.reload();
-    } else if (currTurn === 9){
+    } else if (currTurn === 8){
       alert('Its a tie!');
       location.reload();
     } else{
